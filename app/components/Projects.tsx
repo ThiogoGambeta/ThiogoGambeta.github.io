@@ -84,7 +84,7 @@ export default function Projects(): React.JSX.Element {
 
                 {/* Image Content */}
                 <div className={`${isEven ? "lg:col-start-1 lg:row-start-1" : ""}`}>
-                  <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
+                 <div className="relative w-full aspect-video rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
                     <div className="relative w-full h-full rounded-lg overflow-hidden">
                       <Image
                         src={project.image}
