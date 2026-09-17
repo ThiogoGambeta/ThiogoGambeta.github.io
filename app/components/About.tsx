@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About(): React.JSX.Element {
 
   return (
-    <section id="about" className="py-20 px-6">
+    <section className="py-20 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <p className="text-2xl max-w-6xl mx-auto">

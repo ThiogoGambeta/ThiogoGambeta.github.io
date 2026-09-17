@@ -150,6 +150,7 @@ export default function Banner(): React.JSX.Element {
             Sou um desenvolvedor apaixonado por tecnologia, criando soluções digitais e aprimorando minhas habilidades continuamente. Busco desenvolver aplicações que unam uma boa experiência para o usuário com resultados reais para o negócio.
           </p>
         </div>
+        <p id="about" className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0"></p>
       </div>
     </section>
   );
